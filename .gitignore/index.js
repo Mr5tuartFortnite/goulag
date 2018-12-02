@@ -1,10 +1,10 @@
 const Discord = require("discord.js");
 
-var bot = new Discord.Client();
+var client = new Discord.Client();
 
-bot.on("ready", function() {
-    bot.user.setGame("Fortnite");
-    console.log("Bot has been connected, perfectly");
+
+client.on('ready', () => {
+    console.log(`Logged in as ${client.user.tag}!`);
 });
 
-bot.login("NTE4NTI1MjQyNzg4ODA2NjU5.DuVhOA.SYo1Gb0XbWj3f5ROb4jkK2hObFI");
+client.login("NTE4NTI1MjQyNzg4ODA2NjU5.DuVhOA.SYo1Gb0XbWj3f5ROb4jkK2hObFI");

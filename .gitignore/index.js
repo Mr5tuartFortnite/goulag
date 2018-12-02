@@ -7,4 +7,4 @@ bot.on("ready", function() {
     console.log("Bot has been connected, perfectly");
 });
 
-bot.login("NTE4NTI1MjQyNzg4ODA2NjU5.DuSKag.w2aHM9eHssYa4BESaJ6F_Y-bF_o");
+bot.login("NTE4NTI1MjQyNzg4ODA2NjU5.DuVhOA.SYo1Gb0XbWj3f5ROb4jkK2hObFI");
